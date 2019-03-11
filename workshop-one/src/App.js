@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 // Import Task component:
-import Task from './tasks/Task';
+//import Task from './tasks/Task';
+import Task from './tasks/FunctionalTask';
 
 const dummyTaskData = [
   {
