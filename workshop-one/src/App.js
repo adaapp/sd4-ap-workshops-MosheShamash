@@ -20,12 +20,6 @@ const dummyTaskData = [
   }
 ]
 
-// function getTasks(task) {
-//   return (
-//       <Task title={task.title} description={task.description} />
-//   )
-// }
-
 class App extends Component {
   render() {
     return (
@@ -34,16 +28,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <section>
-          {dummyTaskData.map(item => <Task title={item.title} description={item.description} />)}
-
-          {/* {dummyTaskData.map(function (item) {
-            return (
-              <Task title={item.title} description={item.description} />
-            )
-          })} */}
-
-          {/* {dummyTaskData.map(getTasks)} */}
-
+          {dummyTaskData.map((item,i) => <Task key={i} title={item.title} description={item.description} />)}
         </section>
       </div>
     );
