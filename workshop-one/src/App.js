@@ -20,6 +20,12 @@ const dummyTaskData = [
   }
 ]
 
+// function getTasks(task) {
+//   return (
+//       <Task title={task.title} description={task.description} />
+//   )
+// }
+
 class App extends Component {
   render() {
     return (
@@ -28,9 +34,16 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <section>
-          <Task title="Set new quiz" description="Make it hard" />
-          <Task title="Mark coursework" description="Be really mean" />
-          <Task title="Plan Day 2" description="Do more coding"/>
+          {dummyTaskData.map(item => <Task title={item.title} description={item.description} />)}
+
+          {/* {dummyTaskData.map(function (item) {
+            return (
+              <Task title={item.title} description={item.description} />
+            )
+          })} */}
+
+          {/* {dummyTaskData.map(getTasks)} */}
+
         </section>
       </div>
     );
