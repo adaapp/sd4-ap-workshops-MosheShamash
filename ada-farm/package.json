@@ -1,0 +1,11 @@
+{
+  "name": "ada-farm",
+  "version": "1.0.0",
+  "description": "A starter template for the inheritance and polymorphism workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ali Blackwell",
+  "license": "ISC"
+}
