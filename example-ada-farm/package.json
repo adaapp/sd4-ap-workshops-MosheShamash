@@ -4,12 +4,14 @@
   "description": "A starter template for the inheritance and polymorphism workshop",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "serve ."
   },
   "author": "Ali Blackwell",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "serve": "^11.0.2"
   }
 }
