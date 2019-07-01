@@ -2,7 +2,7 @@ class Crop {
     constructor(type, field, x, y) {
         this.type = type
         // Get the image based on the name of the field
-        this.image = loadImage('./images/'+type.toLowerCase()+'.png') // ./carrot.png
+        this.image = loadImage('/images/'+type.toLowerCase()+'.png') // ./carrot.png
         this.health = 0
         this.field = field
         this.x = x

@@ -2,7 +2,7 @@ class Farmer {
     constructor(userName) {
         this.field = null
         this.userName = userName
-        this.image = loadImage('./images/farmer.png')
+        this.image = loadImage('/images/farmer.png')
         this.x = 100
         this.y = 100
         this.width = 60
